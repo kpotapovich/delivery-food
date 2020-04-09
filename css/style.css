@@ -37,6 +37,7 @@ body {
 .input-search {
     background-image: url("../img/search.svg");
     width: 300px;
+    margin-left: auto;
 
 
 }
@@ -70,6 +71,9 @@ body {
     margin-right: 6px;
 
 }
+.button-card-text{
+    margin-right: 10px;
+}
 .promo {
     box-shadow: 0px 7px 12px rgba(158, 158, 163, 0.1);
     background: #fff1b8 url("../img/pizza.png") no-repeat top -328px right -350px;
@@ -98,7 +102,6 @@ body {
 .section-heading {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin-bottom: 44px;
 }
 
@@ -109,6 +112,7 @@ body {
     line-height: 42px;
     margin: 0;
     color: #000000;
+    margin-right: 30px;
 }
 
 .cards {
@@ -124,6 +128,7 @@ body {
     overflow: hidden;
     margin-bottom: 30px;
     flex-basis: 31% ;
+    text-decoration: none;
 }
 .card-image {
     width: 384px;
@@ -151,6 +156,9 @@ body {
     font-size: 24px;
     line-height: 32px;
 }
+.card-text-reg{
+    font-weight: 400 ;
+}
 
 .card-tag {
     font-style: normal;
@@ -167,6 +175,19 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+
+}
+
+.card-buttons{
+   display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+.card-price-bold {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 30px;
 }
 .rating {
     margin-right: 26px;
@@ -183,6 +204,11 @@ body {
 }
 .price {
     margin-right: 10px;
+}
+.ingredients{
+    color: #8C8C8C;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .category{
@@ -277,7 +303,7 @@ body {
     .card-info{
         flex-wrap: wrap;
     }
-    .rating{
+    .card .rating{
         flex-basis: 100%;
     }
     .card-title{
